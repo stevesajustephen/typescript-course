@@ -1,12 +1,9 @@
-import Component from "./starter/02-props";
+import Component from "./starter/03-state";
 
 function App() {
   return (
     <main>
-      <Component name="steve" age={123} />
-      <Component name="Basil" age={28}>
-        <h1>Hello World</h1>
-      </Component>
+      <Component />
     </main>
   );
 }
