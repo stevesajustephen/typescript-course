@@ -10,7 +10,7 @@ function Component({ name, age, children }: UserProps): JSX.Element {
   return (
     <div>
       {children}
-      <h2>React & Typescript {name}</h2>
+      <h2>React & Typescrsipt {name}</h2>
       <h2>Props {age}</h2>
     </div>
   );
