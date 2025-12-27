@@ -1,10 +1,9 @@
-import Component from "./starter/05-challenge";
+import Component from "./starter/08-fetch-data";
 
 function App() {
   return (
     <main>
-      <Component type="basic" name="steve" />
-      <Component type="advanced" name="steve" email="steve@gmail.com" />
+      <Component />
     </main>
   );
 }
